@@ -1,0 +1,79 @@
+html {
+    height: 100%;
+	
+}
+
+
+body  {
+height: 100%;
+
+margin: 0;
+background: url('flag-bg.jpg') no-repeat;
+background-size: 100%;
+background-attachment: fixed;
+font-family: 'Gabriela', serif;
+color: #fff;
+}
+
+.hidden {display:none;}
+li {list-style-type: none;}
+
+h2 {text-align:center;font-size:20px;}
+h5 {font-size:15px;}
+p {text-align:center;font-size:17px;}
+
+.fancy {
+    width: 100px;  
+    height: 30px;  
+  
+    margin: 10px auto 20px;  
+    position: relative;  
+  
+    background: #E60000;  
+    /*background: -webkit-gradient(linear, left top, left bottombottom, color-stop(31%,#FF0000), color-stop(100%,#9999FF));  
+    background: -webkit-linear-gradient(top,  #FF0000 31%,#9999FF 100%);  
+    background: -moz-linear-gradient(top,  #FF0000 31%, #9999FF 100%);  
+    background: -o-linear-gradient(top,  #FF0000 31%,#9999FF 100%);  
+    background: -ms-linear-gradient(top,  #FF0000 31%,#9999FF 100%);  
+    background: linear-gradient(to bottombottom,  #FF0000 31%,#9999FF 100%);  
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#94c4fe', endColorstr='#d3f6fe',GradientType=0 );  */
+  
+    -webkit-border-radius: 25px;  
+    -moz-border-radius: 25px;  
+    border-radius: 25px;  
+  
+    border: 1px solid #4864a9;  
+  
+    color: #fff;  
+    font-size: 13px;
+    font-family: inherit;
+	
+    text-shadow: 1px 1px 0px rgba(255,255,255,.5);  
+  
+    -webkit-box-shadow:  0px 1px 3px 0px rgba(0, 0, 0, .2);      
+    box-shadow:  0px 1px 3px 0px rgba(0, 0, 0, .2);  
+  
+    position: relative;  
+	left:15px;
+	bottom:20px;
+	z-index: 1; 
+
+}
+
+
+
+#wrapper {
+padding: 10px 10px 10px 35px;
+margin-right: auto;
+margin-left:auto;
+width:600px;
+height:300px;
+position:relative;top:150px;
+background-color: #00248F;
+border-width: 5px;
+border-radius: 12px;
+box-shadow: 5px 5px 5px #E1E1DF;
+
+
+
+}
